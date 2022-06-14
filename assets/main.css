@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-family: open sans;
+  }
+  .barra {
+    flex: 1;
+    border: 2px solid #f0f0f0;
+    border-width: 0 2px 0 0;
+  }
+  .content {
+    display: flex;
+    flex: 5;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f8f8;
+  }
+.content p{
+    text-align: center;
+    width: 490px;
+}
+article img{    
+    border-radius: 50%;
+    width: 50px;
+  }
+  .contentBarra {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    height: 140px;
+  }
+  .contentBarra > article {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentBarra > aside {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+  }
+  .textoContent{
+    text-align:center;
+    padding-left: 10px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h1{
+    padding-top: 15px;
+  }
+  .estado{
+      height: 16px;
+  }
+  .contentBoton{
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f0f0f0;
+    border-width: 2px 0 0 0;
+
+  }
+  .btnNewChat{
+    width: 121px;
+    height: 45px;
+    background-color: #A491D2;
+    color: white;
+    cursor: pointer;
+  }
+  .btnNewChat:hover{
+    background-color: #cdc3e6;
+
+  }
+  .btnNewChat:focus{
+    background-color: #bec1bb;
+  }
+  .contentContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .normalThumb{
+    border-radius: 50%;
+    width: 70px;
+  }
+  .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-width: 2px 0 0 0;
+    font-family: roboto;
+  }
+  .textItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fa-bars{
+    padding-left: 20px;
+  }
+  .textItem p{
+    font-weight: 300;
+  }
